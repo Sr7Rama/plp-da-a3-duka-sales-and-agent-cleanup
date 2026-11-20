@@ -1,0 +1,120 @@
+order_id,order_date,branch,product_name,quantity,unit_price_kes,channel,revenue,month,weekday,is_weekend,price_band
+DK00005,2026-03-08,Nairobi,Wireless Headphones,1,55000,Online,55000,March,Sunday,1,Premium
+DK00009,2026-04-27,Mombasa,Soundbar,1,35000,Online,35000,April,Monday,0,Premium
+DK00018,2026-04-29,Mombasa,Smartphone,3,55000,Online,165000,April,Wednesday,0,Premium
+DK00036,2026-03-03,Nairobi,Smartphone,1,35000,Online,35000,March,Tuesday,0,Premium
+DK00038,2026-02-20,Nairobi,Laptop,2,55000,Online,110000,February,Friday,0,Premium
+DK00040,2026-02-10,Mombasa,Smart TV,2,55000,Online,110000,February,Tuesday,0,Premium
+DK00047,2026-05-31,Nairobi,Wireless Headphones,1,55000,Online,55000,May,Sunday,1,Premium
+DK00079,2026-01-01,Nairobi,Smartphone,1,55000,Online,55000,January,Thursday,0,Premium
+DK00083,2026-03-16,Nairobi,Soundbar,1,55000,Online,55000,March,Monday,0,Premium
+DK00091,2026-04-08,Mombasa,Laptop,1,55000,Online,55000,April,Wednesday,0,Premium
+DK00101,2026-03-23,Mombasa,Soundbar,1,55000,Online,55000,March,Monday,0,Premium
+DK00106,2026-03-18,Mombasa,Soundbar,1,55000,Online,55000,March,Wednesday,0,Premium
+DK00110,2026-03-27,Mombasa,Soundbar,1,55000,Online,55000,March,Friday,0,Premium
+DK00120,2026-05-24,Nairobi,Laptop,2,35000,Online,70000,May,Sunday,1,Premium
+DK00145,2026-02-04,Nairobi,Smart TV,1,55000,Online,55000,February,Wednesday,0,Premium
+DK00167,2026-01-16,Nairobi,Laptop,1,55000,Online,55000,January,Friday,0,Premium
+DK00176,2026-04-19,Nairobi,Smartphone,3,35000,Online,105000,April,Sunday,1,Premium
+DK00179,2026-04-14,Nairobi,Smartphone,1,55000,Online,55000,April,Tuesday,0,Premium
+DK00201,2026-05-13,Nairobi,Smartphone,3,55000,Online,165000,May,Wednesday,0,Premium
+DK00215,2026-04-18,Nairobi,Laptop,2,55000,Online,110000,April,Saturday,1,Premium
+DK00242,2026-04-30,Nairobi,Soundbar,2,55000,Online,110000,April,Thursday,0,Premium
+DK00245,2026-05-15,Mombasa,Smart TV,1,55000,Online,55000,May,Friday,0,Premium
+DK00269,2026-01-12,Nairobi,Smartphone,1,55000,Online,55000,January,Monday,0,Premium
+DK00270,2026-02-09,Mombasa,Wireless Headphones,1,55000,Online,55000,February,Monday,0,Premium
+DK00275,2026-06-20,Nairobi,Laptop,1,55000,Online,55000,June,Saturday,1,Premium
+DK00290,2026-06-24,Mombasa,Smartphone,1,55000,Online,55000,June,Wednesday,0,Premium
+DK00293,2026-01-09,Mombasa,Smartphone,2,35000,Online,70000,January,Friday,0,Premium
+DK00300,2026-02-18,Nairobi,Wireless Headphones,2,35000,Online,70000,February,Wednesday,0,Premium
+DK00304,2026-02-27,Nairobi,Wireless Headphones,1,55000,Online,55000,February,Friday,0,Premium
+DK00305,2026-01-09,Nairobi,Smartphone,1,55000,Online,55000,January,Friday,0,Premium
+DK00306,2026-04-17,Mombasa,Smartphone,1,35000,Online,35000,April,Friday,0,Premium
+DK00321,2026-06-06,Nairobi,Soundbar,3,35000,Online,105000,June,Saturday,1,Premium
+DK00323,2026-02-20,Nairobi,Smartphone,2,55000,Online,110000,February,Friday,0,Premium
+DK00327,2026-03-29,Nairobi,Laptop,1,55000,Online,55000,March,Sunday,1,Premium
+DK00330,2026-03-08,Nairobi,Smart TV,1,55000,Online,55000,March,Sunday,1,Premium
+DK00335,2026-04-15,Nairobi,Smart TV,1,55000,Online,55000,April,Wednesday,0,Premium
+DK00339,2026-05-06,Mombasa,Laptop,1,35000,Online,35000,May,Wednesday,0,Premium
+DK00351,2026-04-12,Mombasa,Soundbar,1,55000,Online,55000,April,Sunday,1,Premium
+DK00362,2026-05-10,Mombasa,Laptop,1,55000,Online,55000,May,Sunday,1,Premium
+DK00363,2026-02-02,Nairobi,Laptop,1,55000,Online,55000,February,Monday,0,Premium
+DK00373,2026-03-28,Mombasa,Smart TV,1,35000,Online,35000,March,Saturday,1,Premium
+DK00379,2026-03-15,Nairobi,Laptop,1,35000,Online,35000,March,Sunday,1,Premium
+DK00390,2026-04-27,Mombasa,Wireless Headphones,1,55000,Online,55000,April,Monday,0,Premium
+DK00401,2026-06-03,Mombasa,Soundbar,3,35000,Online,105000,June,Wednesday,0,Premium
+DK00409,2026-03-25,Nairobi,Smartphone,2,35000,Online,70000,March,Wednesday,0,Premium
+DK00411,2026-04-29,Nairobi,Smartphone,1,35000,Online,35000,April,Wednesday,0,Premium
+DK00427,2026-05-07,Nairobi,Laptop,3,35000,Online,105000,May,Thursday,0,Premium
+DK00428,2026-03-17,Nairobi,Smart TV,1,35000,Online,35000,March,Tuesday,0,Premium
+DK00447,2026-06-17,Nairobi,Smart TV,1,55000,Online,55000,June,Wednesday,0,Premium
+DK00452,2026-02-26,Nairobi,Wireless Headphones,1,35000,Online,35000,February,Thursday,0,Premium
+DK00453,2026-04-05,Nairobi,Wireless Headphones,2,55000,Online,110000,April,Sunday,1,Premium
+DK00459,2026-02-26,Nairobi,Smartphone,1,55000,Online,55000,February,Thursday,0,Premium
+DK00468,2026-04-14,Nairobi,Smartphone,2,35000,Online,70000,April,Tuesday,0,Premium
+DK00478,2026-03-08,Nairobi,Wireless Headphones,1,35000,Online,35000,March,Sunday,1,Premium
+DK00484,2026-06-21,Nairobi,Wireless Headphones,1,55000,Online,55000,June,Sunday,1,Premium
+DK00485,2026-06-06,Nairobi,Wireless Headphones,1,55000,Online,55000,June,Saturday,1,Premium
+DK00491,2026-03-06,Nairobi,Soundbar,1,35000,Online,35000,March,Friday,0,Premium
+DK00498,2026-01-22,Nairobi,Smartphone,2,55000,Online,110000,January,Thursday,0,Premium
+DK00500,2026-02-12,Mombasa,Wireless Headphones,2,35000,Online,70000,February,Thursday,0,Premium
+DK00504,2026-01-30,Mombasa,Wireless Headphones,1,35000,Online,35000,January,Friday,0,Premium
+DK00521,2026-01-12,Mombasa,Wireless Headphones,1,55000,Online,55000,January,Monday,0,Premium
+DK00526,2026-03-21,Nairobi,Smart TV,2,35000,Online,70000,March,Saturday,1,Premium
+DK00533,2026-05-21,Nairobi,Laptop,1,55000,Online,55000,May,Thursday,0,Premium
+DK00570,2026-06-10,Mombasa,Smartphone,1,55000,Online,55000,June,Wednesday,0,Premium
+DK00584,2026-03-05,Nairobi,Smart TV,1,55000,Online,55000,March,Thursday,0,Premium
+DK00595,2026-02-15,Nairobi,Smart TV,1,35000,Online,35000,February,Sunday,1,Premium
+DK00618,2026-03-25,Mombasa,Smartphone,3,35000,Online,105000,March,Wednesday,0,Premium
+DK00625,2026-06-24,Nairobi,Laptop,3,35000,Online,105000,June,Wednesday,0,Premium
+DK00639,2026-01-24,Mombasa,Laptop,1,55000,Online,55000,January,Saturday,1,Premium
+DK00648,2026-05-08,Nairobi,Wireless Headphones,1,35000,Online,35000,May,Friday,0,Premium
+DK00651,2026-01-20,Mombasa,Laptop,3,55000,Online,165000,January,Tuesday,0,Premium
+DK00657,2026-01-31,Nairobi,Wireless Headphones,1,55000,Online,55000,January,Saturday,1,Premium
+DK00658,2026-06-11,Mombasa,Wireless Headphones,1,55000,Online,55000,June,Thursday,0,Premium
+DK00661,2026-03-15,Nairobi,Laptop,1,55000,Online,55000,March,Sunday,1,Premium
+DK00663,2026-05-26,Nairobi,Laptop,1,55000,Online,55000,May,Tuesday,0,Premium
+DK00676,2026-03-26,Nairobi,Smartphone,3,35000,Online,105000,March,Thursday,0,Premium
+DK00680,2026-06-19,Nairobi,Smartphone,1,35000,Online,35000,June,Friday,0,Premium
+DK00683,2026-03-21,Mombasa,Smartphone,1,35000,Online,35000,March,Saturday,1,Premium
+DK00689,2026-02-14,Mombasa,Smartphone,2,35000,Online,70000,February,Saturday,1,Premium
+DK00695,2026-04-14,Nairobi,Smartphone,3,55000,Online,165000,April,Tuesday,0,Premium
+DK00700,2026-05-22,Nairobi,Wireless Headphones,1,35000,Online,35000,May,Friday,0,Premium
+DK00705,2026-01-27,Nairobi,Soundbar,1,55000,Online,55000,January,Tuesday,0,Premium
+DK00715,2026-03-03,Nairobi,Smart TV,1,55000,Online,55000,March,Tuesday,0,Premium
+DK00717,2026-03-03,Nairobi,Soundbar,1,35000,Online,35000,March,Tuesday,0,Premium
+DK00726,2026-05-21,Mombasa,Wireless Headphones,1,35000,Online,35000,May,Thursday,0,Premium
+DK00728,2026-05-22,Nairobi,Smartphone,2,35000,Online,70000,May,Friday,0,Premium
+DK00733,2026-04-16,Nairobi,Smartphone,3,55000,Online,165000,April,Thursday,0,Premium
+DK00748,2026-03-29,Nairobi,Laptop,1,55000,Online,55000,March,Sunday,1,Premium
+DK00749,2026-02-15,Nairobi,Smartphone,1,55000,Online,55000,February,Sunday,1,Premium
+DK00751,2026-06-16,Mombasa,Laptop,1,35000,Online,35000,June,Tuesday,0,Premium
+DK00763,2026-02-01,Nairobi,Soundbar,1,55000,Online,55000,February,Sunday,1,Premium
+DK00765,2026-06-23,Nairobi,Smartphone,1,55000,Online,55000,June,Tuesday,0,Premium
+DK00766,2026-03-27,Nairobi,Smartphone,1,35000,Online,35000,March,Friday,0,Premium
+DK00771,2026-03-21,Mombasa,Laptop,1,35000,Online,35000,March,Saturday,1,Premium
+DK00772,2026-02-25,Nairobi,Wireless Headphones,2,55000,Online,110000,February,Wednesday,0,Premium
+DK00777,2026-04-07,Nairobi,Smartphone,1,55000,Online,55000,April,Tuesday,0,Premium
+DK00788,2026-03-10,Nairobi,Smartphone,1,35000,Online,35000,March,Tuesday,0,Premium
+DK00791,2026-02-26,Nairobi,Smartphone,1,35000,Online,35000,February,Thursday,0,Premium
+DK00813,2026-02-13,Mombasa,Laptop,2,55000,Online,110000,February,Friday,0,Premium
+DK00821,2026-06-06,Nairobi,Soundbar,2,35000,Online,70000,June,Saturday,1,Premium
+DK00829,2026-03-21,Mombasa,Smart TV,1,55000,Online,55000,March,Saturday,1,Premium
+DK00834,2026-05-18,Mombasa,Wireless Headphones,1,35000,Online,35000,May,Monday,0,Premium
+DK00841,2026-03-28,Nairobi,Smart TV,1,55000,Online,55000,March,Saturday,1,Premium
+DK00852,2026-02-12,Nairobi,Smart TV,1,55000,Online,55000,February,Thursday,0,Premium
+DK00853,2026-04-15,Mombasa,Laptop,1,55000,Online,55000,April,Wednesday,0,Premium
+DK00857,2026-01-10,Nairobi,Wireless Headphones,3,35000,Online,105000,January,Saturday,1,Premium
+DK00874,2026-05-23,Mombasa,Wireless Headphones,1,55000,Online,55000,May,Saturday,1,Premium
+DK00893,2026-01-07,Nairobi,Wireless Headphones,1,55000,Online,55000,January,Wednesday,0,Premium
+DK00906,2026-02-07,Nairobi,Soundbar,2,35000,Online,70000,February,Saturday,1,Premium
+DK00910,2026-03-01,Nairobi,Smartphone,1,55000,Online,55000,March,Sunday,1,Premium
+DK00911,2026-03-31,Nairobi,Smartphone,1,55000,Online,55000,March,Tuesday,0,Premium
+DK00920,2026-01-18,Nairobi,Smartphone,2,35000,Online,70000,January,Sunday,1,Premium
+DK00943,2026-03-19,Nairobi,Soundbar,1,55000,Online,55000,March,Thursday,0,Premium
+DK00960,2026-06-02,Nairobi,Smartphone,1,35000,Online,35000,June,Tuesday,0,Premium
+DK00966,2026-02-02,Nairobi,Smartphone,1,35000,Online,35000,February,Monday,0,Premium
+DK00984,2026-04-07,Nairobi,Smartphone,3,55000,Online,165000,April,Tuesday,0,Premium
+DK00989,2026-06-28,Mombasa,Smart TV,2,55000,Online,110000,June,Sunday,1,Premium
+DK00990,2026-05-30,Mombasa,Smart TV,1,55000,Online,55000,May,Saturday,1,Premium
+DK00997,2026-03-06,Nairobi,Smartphone,3,55000,Online,165000,March,Friday,0,Premium
