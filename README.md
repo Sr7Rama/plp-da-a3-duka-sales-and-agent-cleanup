@@ -1,4 +1,4 @@
-# PLP Data Analysis Assignment 3: Duka Sales Exploration & Agent Network Clean-Up
+# Duka Sales Exploration & Agent Network Clean-Up
 
 An end-to-end data analysis, data quality audit, and data engineering project for retail sales exploration and financial agent network data sanitization in Kenya.
 
