@@ -83,11 +83,11 @@ Comprehensive data cleansing workflow that:
 
 ### 4. Production Cleaning Pipeline (`cleaning_pipeline.py`)
 A modular, production-ready function `clean_agent_data(txns, agents)` that returns `(clean_df, log_dict)`:
-- **Uniqueness**: Deduplicates records on `txn_id`, retaining the earliest chronological record (12 duplicates removed).
-- **Consistency**: Strips whitespace and standardizes casing on `txn_type` to Title Case (`Deposit`, `Withdrawal`).
-- **Validity (Format)**: Harmonizes slash-delimited date strings (`YYYY/MM/DD`) into ISO-standard datetime stamps (`YYYY-MM-DD`).
+- **Uniqueness**: Deduplicates records on `txn_id`, retaining the first occurrence in source order (12 duplicate rows removed).
+- **Consistency**: Strips whitespace and standardizes casing on `txn_type` to Title Case (`Deposit`, `Withdrawal`); 376 deduplicated rows required normalization.
+- **Validity (Format)**: Harmonizes slash-delimited dates into ISO-standard datetimes (`YYYY-MM-DD`); 5 deduplicated rows required normalization.
 - **Completeness**: Converts textual `'N/A'` and empty values to numeric `NaN`, flags imputed records (`amount_imputed`), and imputes missing transaction amounts using the sample median (20 values imputed).
-- **Outliers**: Implements Interquartile Range (IQR) bounding ($Q_1 - 1.5 \times \text{IQR}$ to $Q_3 + 1.5 \times \text{IQR}$) and flags anomalies (`is_outlier = True`) without discarding transaction history (53 outliers detected).
+- **Outliers**: Calculates Interquartile Range (IQR) fences ($Q_1 - 1.5 \times \text{IQR}$ to $Q_3 + 1.5 \times \text{IQR}$), flags values outside them (`is_outlier = True`), and retains transaction history (53 outliers detected).
 - **Referential Integrity**: Left-merges transactions with the agent registry on `agent_id` and assigns `county = 'Unknown'` for unmatched IDs like `AG099` (7 rows remain after deduplication; 8 unmatched rows occur in the raw extract).
 
 ### 5. Excel Summary Workbook (`excel/duka_branch_summary.xlsx`)
@@ -162,8 +162,8 @@ jupyter notebook agent_cleanup.ipynb
 ## Key Analytical Findings
 
 ### Duka Electronics Sales Analysis
-- **Top Branch**: **Nairobi** generated the highest total revenue (**KES 12,335,500**) and highest order volume (**379 orders**), followed by Mombasa, Kisumu, and Nakuru.
-- **Product Highlights**: High-ticket products (**Laptops** and **Smart TVs**) contributed over **70%** of total revenue, whereas **Smartphones** drove unit sales volume.
+- **Top Branch**: **Nairobi** generated the highest total revenue (**KES 12,335,500**) and highest order volume (**376 orders**), followed by Mombasa, Kisumu, and Nakuru.
+- **Product Highlights**: **Smartphones** led product revenue (**KES 11,046,500**) and units sold (**464**), followed by **Laptops** and **Wireless Headphones** in revenue.
 - **Channel Segmentation**: Online sales in coastal (Mombasa) and capital (Nairobi) hubs generated **KES 7,905,000** across **119 transactions**, highlighting a strong e-commerce customer base.
 - **Total Revenue**: KES 32,759,500 across 1,000 orders, reconciles 100% with the Excel executive summary.
 
@@ -171,8 +171,8 @@ jupyter notebook agent_cleanup.ipynb
 | Dimension | Audit Finding | Cleaning Treatment | Count |
 |---|---|---|---|
 | **Uniqueness** | Duplicate transaction IDs | Dropped duplicated rows, kept first occurrence | 12 rows removed |
-| **Consistency** | Inconsistent casing (`withdrawal`, `DEPOSIT `) | `.str.strip().str.capitalize()` | All standardized |
-| **Validity** | Mixed date delimiters (`/` vs. `-`) | Normalized to ISO format `YYYY-MM-DD` | All normalized |
+| **Consistency** | Inconsistent casing or whitespace in `txn_type` | `.str.strip().str.capitalize()` | 376 rows standardized after deduplication |
+| **Validity** | Five slash-delimited dates | Normalized to ISO format `YYYY-MM-DD` | 5 dates normalized after deduplication |
 | **Completeness** | Missing/non-numeric amount (`NaN`, `'N/A'`) | Imputed missing values with median amount | 20 values imputed |
 | **Outliers** | Extreme transaction amounts | Flagged via IQR without discarding records | 53 outliers flagged |
 | **Referential Integrity** | 8 raw rows contain unregistered `AG099`; one loses to first-row transaction-ID deduplication | Left joined with registry; 7 retained rows mapped to `'Unknown'` | 7 rows after deduplication |

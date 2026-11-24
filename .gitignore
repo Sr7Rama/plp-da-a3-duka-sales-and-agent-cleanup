@@ -22,3 +22,8 @@ Thumbs.db
 duka_sales.csv
 agents.csv
 agent_transactions.csv
+
+# Excel artifacts (generated dynamically / excluded from source control)
+excel/
+*.xlsx
+~$*.xlsx
